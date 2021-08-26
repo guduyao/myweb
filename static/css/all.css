@@ -1,0 +1,85 @@
+/**全局样式**/
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/2.jpg);
+    margin: 0;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.menu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.choice{
+    width: 15%;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.choice li a {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding: 40px;
+    text-decoration: none;
+    color: wheat;
+}
+.choice::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.choice li a:hover {
+    background-color: #555;
+    color: white;
+}
+.choice li a.active {
+    background-color: #FFC0CB;
+    color: white;
+}
+.introduce{
+    max-width: 504px;
+    float: left;
+    margin: 15px;
+}
+.introduce p{
+    line-height: 150%;
+}
+.introduce img{
+    height: 378px;
+    width: 504px;
+}
+.introduce span{
+    text-align: center;
+    padding: 220px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.gif{
+    max-width: 504px;
+    float: left;
+    margin: 18px;
+    list-style-type: none;
+}
+.gif p img{
+    height: 315px;
+    width: 420px;
+}
+.gif img{
+    height: 378px;
+    width: 504px;
+}
+.gif span{
+    text-align: center;
+    padding: 220px;
+    font-size: 12px;
+    line-height: 20px;
+}
